@@ -11,6 +11,16 @@
             >
               Trainees Attendance
             </h2>
+            @if($errors->any())
+            <div class="text-red-500">
+                <p><strong>Opps Something went wrong</strong></p>
+                <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+                </ul>
+            </div>
+        @endif
             @if (Session::has('success'))
                 <p class="text-light-green-800 bg-light-green-200 px-4 py-2 rounded-md">{{ Session::get('success') }}</p>
             @endif

@@ -18,8 +18,6 @@ class LoginController extends Controller
 
     public function login(Request $request)
     {
-        $user = User::where('email',$request->email)->first();
-        dd($user??null);
         $credentials  = $request->only(['email','password']);
         
         if (Auth::attempt($credentials)) {

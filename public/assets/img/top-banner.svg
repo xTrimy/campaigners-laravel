@@ -1,0 +1,85 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient gradientUnits="objectBoundingBox" y2="0.009" x2="0.876" y1="-0.001" x1="0.093" id="svg_54">
+   <stop stop-color="#0a5b00" offset="0"/>
+   <stop stop-color="#164910" offset="1"/>
+  </linearGradient>
+  <linearGradient gradientUnits="objectBoundingBox" y2="0.009" x2="0.876" y1="-0.001" x1="0.093" id="svg_56">
+   <stop stop-color="#0a5b00" offset="0"/>
+   <stop stop-color="#1e6d15" offset="1"/>
+  </linearGradient>
+  <linearGradient gradientUnits="objectBoundingBox" y2="0.009" x2="0.876" y1="-0.001" x1="0.093" id="svg_55">
+   <stop stop-color="#157a08" offset="0"/>
+   <stop stop-color="#0d5104" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null">
+
+   <g stroke="null" transform="translate(16.791 -231.116)">
+    <g stroke="null" transform="translate(211 458)">
+     <rect stroke="null" x="-118.68281" y="-279.18846" fill="url(#svg_54)" transform="matrix(0.973747 -0.259 0.261077 0.966 302.55 83.871)" rx="93.5" height="187" width="960"/>
+     <rect stroke="null" x="-118.68281" y="-279.18846" fill="url(#svg_56)" transform="matrix(0.973747 -0.259 0.261077 0.966 -158.777 740.738)" rx="107" height="251" width="2190"/>
+     <rect stroke="null" x="-118.68281" y="-279.18846" fill="url(#svg_55)" transform="matrix(0.973747 -0.259 0.261077 0.966 -223.301 567.334)" rx="114.5" height="229" width="2267"/>
+     <g stroke="null" transform="translate(1521.91 -503.766)">
+      <path stroke="null" fill="#d0df4c" d="m98.80574,550.64594l207.4312,156.62134l-308.05743,81.93802l100.62623,-238.55935z"/>
+      <path stroke="null" fill="#7f882a" d="m97.54395,550.00072l-34.04274,254.98294l-65.06381,-17.30586l99.10654,-237.67707z"/>
+     </g>
+     <rect stroke="null" x="-118.68281" y="-279.18846" fill="#338827" transform="matrix(0.973747 -0.259 0.261077 0.966 741.279 320.147)" rx="113" height="226" width="1247"/>
+     <rect stroke="null" x="-118.68281" y="-279.18846" fill="#1a6510" transform="matrix(0.973747 -0.259 0.261077 0.966 -155.534 208.657)" rx="91.5" height="183" width="808"/>
+     <rect stroke="null" x="-118.68281" y="-279.18846" fill="#338827" transform="matrix(0.973747 -0.259 0.261077 0.966 -193.911 -11.547)" rx="113" height="226" width="832"/>
+     <g stroke="#fff" fill="#fff" transform="matrix(0.973747 -0.259 0.261077 0.966 -132.882 384.603)">
+      <rect stroke="null" x="-118.68281" y="-279.18845" rx="78.5" height="157" width="863"/>
+      <rect stroke="null" fill="none" rx="78" height="156" width="862" y="-278.68845" x="-118.18281"/>
+     </g>
+     <rect stroke="null" x="-118.68281" y="-279.18846" fill="url(#svg_54)" transform="matrix(0.973747 -0.259 0.261077 0.966 396.631 228.818)" rx="93.5" height="187" width="1524"/>
+     <g stroke="#fff" fill="#fff" transform="translate(435 235)">
+      <circle stroke="null" r="60.81853" cy="-177.95721" cx="-120.65101"/>
+      <circle stroke="null" fill="none" r="60.32002" cy="-177.95721" cx="-120.65101"/>
+     </g>
+     <g stroke="null" transform="translate(-5 10)">
+      <path stroke="null" fill="#d0df4c" d="m27.4486,531.69267l111.33344,84.06321l-165.34219,43.9782l54.00876,-128.04141z"/>
+      <path stroke="null" fill="#7f882a" d="m26.77213,531.34618l-18.27231,136.85669l-34.92148,-9.28852l53.19379,-127.56817z"/>
+     </g>
+     <rect stroke="null" x="-118.68281" y="-279.18846" fill="url(#svg_54)" transform="matrix(0.973747 -0.259 0.261077 0.966 -172.889 999.738)" rx="103" height="206" width="2190"/>
+     <rect stroke="null" x="-118.68281" y="-279.18846" fill="#3f9235" transform="matrix(0.973747 -0.259 0.261077 0.966 -173.027 997.776)" rx="104" height="208" width="1599"/>
+     <g stroke="#fff" fill="#fff" transform="matrix(0.973747 -0.259 0.261077 0.966 -179.207 993.908)">
+      <rect stroke="null" x="-118.68281" y="-279.18845" rx="109.5" height="219" width="1011"/>
+      <rect stroke="null" fill="none" rx="109" height="218" width="1010" y="-278.68845" x="-118.18281"/>
+     </g>
+     <circle stroke="null" fill="#3f9235" transform="translate(656 802)" r="63.80961" cy="-174.95721" cx="-117.62695"/>
+     <circle stroke="null" fill="#116406" transform="translate(791 333)" r="67.2992" cy="-171.45721" cx="-114.09888"/>
+     <g stroke="null" transform="translate(-14 -177)">
+      <line stroke="#fff" y1="-238.95721" x2="-182.14019" stroke-width="3" fill="none" transform="translate(866.5 885.5)" y2="-108.95721" x1="306.7492"/>
+      <line stroke="#fff" y1="-238.95721" x2="-182.14019" stroke-width="3" fill="none" transform="translate(1205.5 840.5)" y2="-161.95721" x1="-127.70715"/>
+      <line stroke="#fff" x2="-182.14019" y2="-238.95721" stroke-width="3" fill="none" transform="translate(1213.5 933.5)" y1="-223.95721" x1="-80.33024"/>
+     </g>
+     <g stroke="#fff" fill="#fff" transform="translate(1530 401)">
+      <circle stroke="null" r="117.15045" cy="-121.45721" cx="-63.69792"/>
+      <circle stroke="null" fill="none" r="116.65194" cy="-121.45721" cx="-63.69792"/>
+     </g>
+     <g stroke="null" transform="matrix(0.973747 -0.259 0.261077 0.966 -665.669 407.379)">
+      <g stroke="#fff" fill="#fff" transform="translate(1381 184)">
+       <circle stroke="null" r="18.259" cy="-260.92945" cx="-100.42381"/>
+       <circle stroke="null" fill="none" r="17.759" cy="-260.92945" cx="-100.42381"/>
+      </g>
+      <g stroke="#fff" fill="#fff" transform="translate(1440.43 187.58)">
+       <circle stroke="null" r="14.679" cy="-264.50945" cx="-104.00381"/>
+       <circle stroke="null" fill="none" r="14.179" cy="-264.50945" cx="-104.00381"/>
+      </g>
+      <g stroke="#fff" fill="#fff" transform="translate(1492.7 191.161)">
+       <circle stroke="null" r="11.099" cy="-268.08945" cx="-107.58381"/>
+       <circle stroke="null" fill="none" r="10.599" cy="-268.08945" cx="-107.58381"/>
+      </g>
+     </g>
+    </g>
+    <g stroke="null" transform="translate(179 453)">
+     <line stroke="#0b5a02" y1="-723.86325" x2="-557.31706" stroke-width="3" fill="none" y2="-840.24282" x1="-985.37982"/>
+     <path stroke="#0b5a02" stroke-width="3" fill="none" d="m-313.43807,-732.25849l31.09227,-66.65213l3.81833,-8.18479"/>
+     <line stroke="#0b5a02" x2="-285.79398" y2="-640.92377" stroke-width="3" fill="none" y1="-666.94602" x1="-372.62911"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

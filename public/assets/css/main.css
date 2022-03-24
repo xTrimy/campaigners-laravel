@@ -1,0 +1,369 @@
+.carousel-area .tns-nav button:hover, .carousel-area .tns-nav button.tns-nav-active {
+  background: #fff;
+}
+/*# sourceMappingURL=main.css.map */
+
+.page-scroll {
+    display: block;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    --text-opacity: 1;
+    color: #4a5568;
+    color: rgba(74, 85, 104, var(--text-opacity));
+    transition-duration: 300ms;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  --text-opacity: 1;
+  color: #718096;
+  color: rgba(113, 128, 150, var(--text-opacity));
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.btn {
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+  --bg-opacity: 1;
+  background-color: #137007;
+  background-color: rgba(49, 130, 206, var(--bg-opacity));
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 9999px;
+  transition-duration: 300ms;
+}
+
+.btn:hover {
+  --bg-opacity: 1;
+  background-color: #4299e1;
+  background-color: rgba(66, 153, 225, var(--bg-opacity));
+}
+
+.navigation.fixed{
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.sticky {
+  position: fixed;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity)) !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.collapse.show {
+  display: block;
+}
+
+.toggler-icon {
+  display: block;
+  --bg-opacity: 1;
+  background-color: #4a5568;
+  background-color: rgba(74, 85, 104, var(--bg-opacity));
+  position: relative;
+  transition-duration: 300ms;
+  height: 2px;
+  width: 30px;
+  margin: 6px 0;
+}
+
+.active>.toggler-icon:nth-child(1) {
+  --transform-translate-x: 0;
+  --transform-translate-y: 0;
+  --transform-rotate: 0;
+  --transform-skew-x: 0;
+  --transform-skew-y: 0;
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+  --transform-rotate: 45deg;
+  top: 7px;
+}
+
+.active>.toggler-icon:nth-child(2) {
+  opacity: 0;
+}
+
+.active>.toggler-icon:nth-child(3) {
+  top: -8px;
+  transform: rotate(135deg);
+}
+
+.page-scroll {
+  display: block;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+  --text-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
+  transition-duration: 300ms;
+}
+
+.page-scroll.active,
+.page-scroll:hover {
+  --text-opacity: 1;
+  color: #137007;
+  color: rgba(19, 112, 7, var(--text-opacity));
+  border-bottom: 1px solid #137007;
+}
+
+.section-heading {
+  font-size: 2.25rem;
+  --text-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
+  font-weight: 700;
+  letter-spacing: 0.025em;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  --text-opacity: 1;
+  color: #137007;
+  color: rgba(19, 112, 7, var(--text-opacity));
+}
+
+.service-title {
+  --text-opacity: 1;
+  color: #2d3748;
+  color: rgba(45, 55, 72, var(--text-opacity));
+  font-weight: 600;
+  font-size: 1.125rem;
+  display: block;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.feature-title {
+  --text-opacity: 1;
+  color: #2d3748;
+  color: rgba(45, 55, 72, var(--text-opacity));
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.team-item {
+  margin: 0.75rem;
+  text-align: center;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  transition-duration: 300ms;
+}
+
+.team-item:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.team-overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  --bg-opacity: 1;
+  background-color: #edf2f7;
+  background-color: rgba(237, 242, 247, var(--bg-opacity));
+  transition-duration: 300ms;
+  opacity: 0;
+}
+
+.team-overlay:hover {
+  opacity: 1;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  --bg-opacity: 1;
+  background-color: #137007;
+  background-color: rgba(49, 130, 206, var(--bg-opacity));
+  border-radius: 0.25rem;
+  font-size: 1.125rem;
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+  transition-duration: 300ms;
+}
+
+.team-name {
+  --text-opacity: 1;
+  color: #2d3748;
+  color: rgba(45, 55, 72, var(--text-opacity));
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.client-logo {
+  opacity: 0.5;
+  transition-duration: 300ms;
+}
+
+.client-logo:hover {
+  opacity: 1;
+}
+
+.tns-nav {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: -4rem;
+  text-align: center;
+}
+
+.tns-nav button {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 9999px;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  opacity: 0.5;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition-duration: 300ms;
+}
+
+.tns-nav>.tns-nav-active,
+.tns-nav button:hover {
+  opacity: 1;
+}
+
+.tns-nav button:focus {
+  outline: 0;
+}
+
+.pricing-box {
+  margin: 0.75rem;
+  text-align: center;
+  padding: 1.5rem;
+  padding-bottom: 2.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 0.25rem;
+  transition-duration: 300ms;
+}
+
+.pricing-box:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --bg-opacity: 1;
+  background-color: #ebf8ff;
+  background-color: rgba(235, 248, 255, var(--bg-opacity));
+}
+
+.package-name {
+  --text-opacity: 1;
+  color: #137007;
+  color: rgba(19, 112, 7, var(--text-opacity));
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+.form-input {
+  width: 100%;
+  margin-bottom: 1.25rem;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #a0aec0;
+  border-color: rgba(160, 174, 192, var(--border-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition-duration: 300ms;
+  outline: 0
+}
+
+.form-input:focus {
+  --border-opacity: 1;
+  border-color: #137007;
+  border-color: rgba(49, 130, 206, var(--border-opacity));
+}
+
+.contact-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --bg-opacity: 1;
+  background-color: #137007;
+  background-color: rgba(49, 130, 206, var(--bg-opacity));
+  font-size: 1.25rem;
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+  border-radius: 9999px;
+}
+
+.footer-links {
+  line-height: 2.25rem;
+  --text-opacity: 1;
+  color: #f7fafc;
+  color: rgba(247, 250, 252, var(--text-opacity));
+  transition-duration: 300ms;
+}
+
+.footer-links:hover {
+  --text-opacity: 1;
+  color: #4299e1;
+  color: rgba(66, 153, 225, var(--text-opacity));
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  --text-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
+  transition-duration: 300ms;
+}
+
+.footer-icon:hover {
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
